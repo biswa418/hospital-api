@@ -1,15 +1,15 @@
-## Hospital API
+# Hospital API
 
 An API for the doctors of a Hospital which has been allocated by the
 govt for testing and quarantine + well being of COVID-19 patients. Find the endpoints below.
 
-# How to set up
+## How to set up
  Install all the node_modules mentioned in package, run
  <code> npm i </code>
  And then to start the server run
  <code> npm start </code>
 
-# Endpoints
+## Endpoints
 - /doctors/register → with username and password
 - /doctors/login → returns the JWT token to be used
 - /patients/register
@@ -17,7 +17,7 @@ govt for testing and quarantine + well being of COVID-19 patients. Find the endp
 - /patients/:id/all_reports → List all the reports of a patient oldest to latest
 - /reports/:status → List all the reports of all the patients filtered by a specific status
 
-# Features
+## Features
  There can be 2 types of Users
 <code> Doctors </code> <code> Patients </code>
 
