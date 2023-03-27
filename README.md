@@ -5,9 +5,9 @@ govt for testing and quarantine + well being of COVID-19 patients. Find the endp
 
 ## How to set up
  Install all the node_modules mentioned in package, run
- <code> npm i </code>
+ <code>npm i</code>
  And then to start the server run
- <code> npm start </code>
+ <code>npm start</code>
 
 ## Endpoints
 - /doctors/register → with username and password
@@ -19,7 +19,7 @@ govt for testing and quarantine + well being of COVID-19 patients. Find the endp
 
 ## Features
  There can be 2 types of Users
-<code> Doctors </code> <code> Patients </code>
+<code>Doctors</code> <code>Patients</code>
 
 - Doctors can log in
 - Each time a patient visits, the doctor will follow 2 steps

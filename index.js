@@ -1,4 +1,6 @@
+//import express
 const express = require('express');
+
 //initialize
 const app = express();
 const port = 8000;
@@ -18,11 +20,8 @@ app.use(
 //use express router to routes/
 app.use('/', require('./routes'));
 
-
 //start the server
 app.listen(port, function (err) {
     if (err) { console.log(err); return; }
-
     console.log(`App is running on port - ${port}`);
 });
-
