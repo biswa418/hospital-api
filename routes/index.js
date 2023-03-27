@@ -1,6 +1,6 @@
 const router = require('express').Router();
 
-router.get('/', function (req, res) { res.end('<h1> Hello world </h1>'); });
+console.log('Started routing');
 router.use('/api', require('./api'));
 
 module.exports = router;

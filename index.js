@@ -1,8 +1,19 @@
 const express = require('express');
-
+//initialize
 const app = express();
 const port = 8000;
 
+//mongo
+const db = require('./config/mongoose');
+
+//auth
+const passport = require('passport');
+const passportJWT = require('./config/passport-jwt-strategy');
+
+//bodyparser
+app.use(
+    express.urlencoded({ extended: true })
+);
 
 //use express router to routes/
 app.use('/', require('./routes'));
